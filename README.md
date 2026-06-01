@@ -7,7 +7,7 @@
 - [Arquiteturas](#arquiteturas-e-aplicações-cloud)
 - [AWS](#amazon-web-services-aws)
 - [Azure](#azure)
-- [GPC](#google-cloud-platform-gcp)
+- [GCP](#google-cloud-platform-gcp)
 - [Docker](#docker)
 - [Kubernetes](#kubernetes)
 - [DevOps](#devops)
@@ -22,12 +22,12 @@ Nesse tópico, vamos abordar o mecanismo que torna possível essa manipulação 
 
 ### Como funciona?
 
-A virtualização surgiu como uma forma de separar melhor o hardware do software. No modelo tradicional, os softwares são instalados em uma infraestrutura física (hardware). Porém sempre que essa infraestrutura não suportasse mais a demanda de usuários ou serviços, o hardware precisava ser substituído, o chamado *upgrade vertical*. Por outro lado criou-se também os clusters de computadores, multiplas máquinas ligadas entre si e dividindo as tarefas, e aumentando as máquinas de acordo com a demanda de processamento necessarios, chamado então de *upgrade horizontal*. Ainda neste modelo, cada um dos computadores mantinham sua própria estrutura de SO e seus próprios processos.  
+A virtualização surgiu como uma forma de separar melhor o hardware do software. No modelo tradicional, os softwares são instalados em uma infraestrutura física (hardware). Porém sempre que essa infraestrutura não suportasse mais a demanda de usuários ou serviços, o hardware precisava ser substituído, o chamado *upgrade vertical*. Por outro lado criou-se também os clusters de computadores, múltiplas máquinas ligadas entre si e dividindo as tarefas, e aumentando as máquinas de acordo com a demanda de processamento necessários, chamado então de *upgrade horizontal*. Ainda neste modelo, cada um dos computadores mantinham sua própria estrutura de SO e seus próprios processos.  
 
 ![Fig.1 - Cluster de computadores](img/cluster_de_computadores.png)
 *Fig.1 - Cluster de computadores.*
 
-A virtualização revolucionou esse cenário ao abstrair o hardware físico, inserindo uma camada lógica que permite uma separação eficiente entre os recursos físicos e os sistemas operacionais. Como exemplo a virtualização permite, a instalação de varios sistemas operacionais em uma mesma máquina.
+A virtualização revolucionou esse cenário ao abstrair o hardware físico, inserindo uma camada lógica que permite uma separação eficiente entre os recursos físicos e os sistemas operacionais. Como exemplo a virtualização permite, a instalação de vários sistemas operacionais em uma mesma máquina.
 
 ![Fig.2 - Tradicional vs Virtualização](img/estrutura_tradicional_x_virtualizacao.png)
 *Fig.2 - Tradicional vs Virtualização.*
@@ -61,7 +61,7 @@ A Virtualização nos permite fornecer uma versão virtual de muitas tecnologias
 
 * **Redes:** Chamado de SDN - *Software Defined Networking* (Rede Definida por Software). É possível criar um tipo de infraestrutura lógica de redes sobre uma determinada rede física, permite a configuração e o detalhamento de acordo com as necessidades do ambiente.
 
-Ao utilizar essas técnicas de virtualização, todos os dispositivos podem ser representados em forma de *softwares*: Servidores e estações de trabalho se tornam VMs, a rede e o armazenamento são virtualizados e se tornam **SDN e SDS**. E assim construimos o **SDDC - *Software Defined Data Center* (Data Center Definido por Software).**
+Ao utilizar essas técnicas de virtualização, todos os dispositivos podem ser representados em forma de *softwares*: Servidores e estações de trabalho se tornam VMs, a rede e o armazenamento são virtualizados e se tornam **SDN e SDS**. E assim construímos o **SDDC - *Software Defined Data Center* (Data Center Definido por Software).**
 
 ## Cloud computing 
 ## Arquiteturas e aplicações cloud
